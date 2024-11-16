@@ -1,4 +1,5 @@
 #!/bin/sh
+# source -> http://www.gastonsanchez.com/visually-enforced/how-to/2017/11/10/Converting-HTML-files-to-PDF/
 
 # names of files (without extension)
 files=$(ls -1 htmls | sed -e 's/\.html$//')
