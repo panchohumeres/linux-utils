@@ -9,6 +9,7 @@ sudo apt-get install wkhtmltopdf
 
 ### Convert many files in a folder to pdf
 1. Sample directory structure
+``
 mydir/
     convert2pdf.sh
     htmls/
@@ -19,7 +20,8 @@ mydir/
         file-1.pdf
         .....
         file-n.pdf
+   ``
 
-2. crete bash script (sample convert2pdf.sh )
-3. execute script within root folder
+3. crete bash script (sample convert2pdf.sh )
+4. execute script within root folder
 ``sh convert2pdf.sh``
